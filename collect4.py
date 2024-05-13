@@ -14,5 +14,9 @@ products = ChainMap(techs,finance,gaming)
 
 print(products['Samsung'])
 print(stocks)
+
 ''' DISPLAY TE VALUE OF PLW'''
 print(stocks['PLW'])
+
+""" Get the Keys of ChainMap"""
+print(sorted(list(products.keys())))

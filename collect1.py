@@ -1,7 +1,7 @@
 from collections import Counter
 
 Target = ['yes', 'no', 'no', None, 'yes', 'yes', 'no', 'yes']
-new_target =Counter(Target)
+new_target = Counter(Target)
 
 poll_1 = {'yes': 140, 'no': 120, None: 12}
 poll_2 = {'yes': 113, 'no': 132, None: 9}
